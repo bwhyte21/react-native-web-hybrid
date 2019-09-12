@@ -1,4 +1,4 @@
-// roboroster.js : this file stores the list of pokemon to reference
+//  roboroster.js : this is just a list of robots with attributes to be rendered in the native view as well as the dom
 export default [
     {
         number: '1',

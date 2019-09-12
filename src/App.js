@@ -1,9 +1,10 @@
 /* eslint-disable no-unused-vars */
-// (Native) App.js : this is where the react scripts will look for the react[native] code
-// use FlatListing to render the list of robofriends
+//  (Native) App.js : this is entry point one for the app 
+//  : essentially where Expo will look for the react native scripts that power the app.
+//  : use FlatListing to render the list of robots
 import React, { Component } from 'react';
 import { StyleSheet, View } from 'react-native';
-import { Router, Switch, Route } from './routing'; //importing like this makes it conveinient to however you're routing it; web or native
+import { Router, Switch, Route } from './routing'; //importing 'routing' like this makes it conveinient to however you're routing it; web or native
 import Home from './Home';
 import Robot from './Robot';
 
