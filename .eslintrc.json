@@ -8,8 +8,10 @@
     "eslint:recommended",
     "plugin:react/recommended",
     "prettier",
+    "prettier/babel",
+    "prettier/flowtype",
     "prettier/react",
-    "prettier/babel"
+    "prettier/standard"
   ],
   "globals": {
     "Atomics": "readonly",
@@ -22,7 +24,7 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": ["react"],
+  "plugins": ["react", "prettier"],
   "rules": {
     "func-names": 0,
     "import/no-unresolved": 0,
