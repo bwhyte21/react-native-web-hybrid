@@ -6,6 +6,6 @@ import React from 'react';
 import HybridApp from './src/App';
 
 export default function App() {
-    // this line imports and renders our native code
-    return <HybridApp />;
+  // this line imports and renders our native code
+  return <HybridApp />;
 }
