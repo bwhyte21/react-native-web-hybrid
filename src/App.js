@@ -50,7 +50,7 @@ export default class App extends Component {
         );
     }
 }
-
+//  view styling
 const styles = StyleSheet.create({
     container: {
         flex: 1,
