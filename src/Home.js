@@ -1,7 +1,7 @@
 // Home.js: this file will render the list of robots to select from.
-import React from "react";
-import { View, Text, FlatList, TouchableOpacity } from "react-native";
-import robot from "./roboroster";
+import React from 'react';
+import { View, Text, FlatList, TouchableOpacity } from 'react-native';
+import robot from './roboroster';
 
 //  Given the selectRobot function passed in via src/App.js...
 const Home = props => {
@@ -13,7 +13,7 @@ const Home = props => {
       It allows us to dynamically change routes with our code, corressponding to the
       string that we pass in it.
     */
-    props.history.push("robot");
+    props.history.push('robot');
   };
   return (
     <View>

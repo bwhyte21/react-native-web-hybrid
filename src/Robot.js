@@ -1,8 +1,8 @@
 // Robots.js : this file will render the information about a single robot the
 // user has selected
-import React from "react";
-import { View, Text, Image, Platform, Button, Share } from "react-native";
-import { Link } from "./routing";
+import React from 'react';
+import { View, Text, Image, Platform, Button, Share } from 'react-native';
+import { Link } from './routing';
 
 //  we pass the selected robot from the app component through the props
 const Robot = props => {
@@ -74,7 +74,7 @@ const Robot = props => {
         Only if the platform is not web, add a share button for any social media apps.
         'Share' is explained at the top of this page.
       */}
-      {Platform.OS !== "web" && (
+      {Platform.OS !== 'web' && (
         <View>
           <Button title="Share" onPress={handleAction} />
         </View>
