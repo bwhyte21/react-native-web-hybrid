@@ -28,10 +28,11 @@
   "devDependencies": {
     "ansi-html": "^0.0.9",
     "babel-preset-expo": "^6.0.0",
-    "eslint": "^6.4.0",
+    "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.3.0",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.3",
+    "glob-parent": "^6.0.2",
     "immer": "^9.0.14",
     "minimist": "^1.2.6",
     "nan": "^2.15.0",
