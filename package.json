@@ -16,7 +16,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-standard": "^4.0.1",
     "expo": "^45.0.4",
-    "react": "16.8.3",
+    "react": "^16.8.3",
     "react-art": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz",
@@ -32,13 +32,16 @@
     "eslint-config-prettier": "^6.3.0",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.3",
+    "immer": "^9.0.14",
+    "minimist": "^1.2.6",
     "nan": "^2.15.0",
     "node-fetch": "^1.7.3",
     "postcss": "^6.0.23",
     "prettier": "^1.18.2",
     "react-dev-utils": "^8.0.0",
     "typescript": "^3.6.3",
-    "typescript-eslint": "0.0.1-alpha.0"
+    "typescript-eslint": "0.0.1-alpha.0",
+    "webpack-dev-server": "^3.11.3"
   },
   "private": true,
   "browserslist": {
